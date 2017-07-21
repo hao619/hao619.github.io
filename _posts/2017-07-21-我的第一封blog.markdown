@@ -1,4 +1,3 @@
-2017-07-21-我的第一封blog.markdown
 ---
 layout: post
 title:  "我的第一封blog.markdown!"
