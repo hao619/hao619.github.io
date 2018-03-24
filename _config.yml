@@ -1,8 +1,8 @@
 # Site settings 配置站点
-title: '国浩的独立博客'
-description: '，运维工程师，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: '运维工程师，运维开发，cc攻击防御专家'
-url: 'http://blog.s100.pw' # your host
+title: '廖柯宇的独立博客'
+description: '昵称悟空，千禧一代，前端开发者/伪极客/灵魂摄影师，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
+keyword: '廖柯宇, 廖柯宇的独立博客, 廖柯宇的博客, 前端, 前端开发, 前端博客, javascript, vuejs, nodejs, 设计'
+url: 'http://liaokeyu.com' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
@@ -17,9 +17,9 @@ footer:
   since: 2017
 
 # Author 配置博主信息
-author: '国浩'
-nickname: '闷大瞎'
-bio: '热爱运维'
+author: '廖柯宇'
+nickname: '悟空'
+bio: '前端开发者，热爱技术&设计，简单乐观爱创造'
 avatar: '/assets/img/profile.png'
 
 # Search
@@ -67,7 +67,7 @@ sns:
   weibo: '//weibo.com/lovecolcol'
   juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
   instagram: '//www.instagram.com/steveliaocn'
-  github: '//github.com/hao619'
+  github: '//github.com/kaeyleo'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
@@ -80,7 +80,6 @@ exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'R
 
 # Markdown
 markdown: kramdown
-<<<<<<< HEAD
 highlighter: rouge
 kramdown:
   input: GFM
@@ -94,13 +93,3 @@ permalink: /:year/:month/:day/:title.html
 
 # Plugins
 plugins: [jekyll-paginate]
-=======
-sass:
-  style: compressed
-gems:
-  - jekyll-sitemap
-
-theme: jekyll-theme-modernist
->>>>>>> 4ff0feaaa82023a7e8b879ed4a31adea3fddb22c
-
-
