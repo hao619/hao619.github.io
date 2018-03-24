@@ -80,6 +80,7 @@ exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'R
 
 # Markdown
 markdown: kramdown
+<<<<<<< HEAD
 highlighter: rouge
 kramdown:
   input: GFM
@@ -93,3 +94,11 @@ permalink: /:year/:month/:day/:title.html
 
 # Plugins
 plugins: [jekyll-paginate]
+=======
+sass:
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+theme: jekyll-theme-modernist
+>>>>>>> 4ff0feaaa82023a7e8b879ed4a31adea3fddb22c
