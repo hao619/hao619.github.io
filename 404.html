@@ -1,7 +1,17 @@
 ---
 layout: default
+header-img: "assets/img/hero.jpg"
+description: "Sorry, Page Not Found :("
 ---
-<div id="not-found" class="container">
-  <h1>抱歉，文章不存在</h1>
-  <p>欢迎阅读其他文章</p>
-</div>
+
+{% include header.html %}
+
+<header class="g-banner np-banner {{ site.postPatterns | prepend: 'post-pattern-' }}" data-theme="{{ site.theme-color }}">
+    <div class="post-wrapper">
+        <h1>404</h1>
+        <span class="subheading">{{ page.description }}</span>
+        <a href="{{ site.nav.home }}" class="btn">Back to home</a>
+    </div>
+</header>
+
+

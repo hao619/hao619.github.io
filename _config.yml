@@ -1,38 +1,95 @@
-# Site settings
-title: Op Joker 的博客
-email: your-email@baidu.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.s100.pw" # the base hostname & protocol for your site
+# Site settings 配置站点
+title: '国浩的独立博客'
+description: '，运维工程师，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
+keyword: '运维工程师，运维开发，cc攻击防御专家'
+url: 'http://blog.s100.pw' # your host
 
+# if you don't need baseurl, you should leave this value blank.
+baseurl: ''
 
-# Sidebar filter
-# Choose 'tag' or 'category' as filter in sidebar.
-filter: 'category'
+# Navigation links
+nav:
+  home: '/'
+  tags: '/tags.html'
 
+# Footer
+footer:
+  since: 2017
 
-# Social account
-# twitter:  username
-weibo:    ID
-github:   hao619
-# codepen:  username
-# dribbble: username
+# Author 配置博主信息
+author: '国浩'
+nickname: '闷大瞎'
+bio: '热爱运维'
+avatar: '/assets/img/profile.png'
 
+# Search
+search: true
 
-# Comment
-# disqus_shortname: discussion_shortname
+# Night mode
+nightMode: true
 
+# Comments 评论功能
+#   default_hidden：是否默认隐藏评论。若是则需要点击一按钮后才显示。 by Ray-Eldath
+comments:
+  default_hidden: true
+  disqus: false
+  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
-# Google Analytics
-# google_analytics: tracking_ID
+  livere: true
+  livere_uid: MTAyMC8yODEwMC80Njcz
 
+# Reward 赞赏功能 by Ray-Eldath
+reward:
+  enable: true
+  reward_comment: '真诚赞赏 手有余香'
+  wechatpay: 'http://ray-eldath.image.alimmdn.com/basic/wechatpay.jpg'
+  alipay: 'http://ray-eldath.image.alimmdn.com/basic/alipay.jpg'
+
+# b2t 回到顶部 by Ray-Eldath
+b2t: true
+
+# MathJax 公式支持 by Ray-Eldath
+mathjax: true
+
+# Share
+social-share: true
+social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+
+# theme color 主题皮肤
+theme-color: 'default'  # pink or default
+
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'circuitBoard'
+
+# SNS settings 配置社交网站url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  email: 'mailto:ray.eldath@aol.com'
+  weibo: '//weibo.com/lovecolcol'
+  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
+  instagram: '//www.instagram.com/steveliaocn'
+  github: '//github.com/hao619'
+
+# Tags 设置标签
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
 # Build settings
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+
+# Markdown
 markdown: kramdown
-sass:
-  style: compressed
-gems:
-  - jekyll-sitemap
+highlighter: rouge
+kramdown:
+  input: GFM
+
+# RSS
+RSS: false
+
+# Permalink
+# See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
+permalink: /:year/:month/:day/:title.html
+
+# Plugins
+plugins: [jekyll-paginate]
