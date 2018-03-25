@@ -43,7 +43,7 @@ reward:
   enable: true
   reward_comment: '真诚赞赏 手有余香'
   wechatpay: 'http://blog.s100.pw/img/weixin_zanshang.png'
-  alipay: 'http://ray-eldath.image.alimmdn.com/basic/alipay.jpg'
+  alipay: 'http://blog.s100.pw/img/zhifubao_zhuanzhang.jpg'
 
 # b2t 回到顶部 by Ray-Eldath
 b2t: true
