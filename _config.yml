@@ -17,9 +17,9 @@ footer:
   since: 2017
 
 # Author 配置博主信息
-author: '国浩'
-nickname: '闷大瞎'
-bio: '运维'
+author: '周国浩'
+nickname: '闷大瞎&Format&Freedom'
+bio: '运维攻城狮'
 avatar: '/assets/img/profile.png'
 
 # Search
@@ -64,9 +64,6 @@ postPatterns: 'glamorous'
 # SNS settings 配置社交网站url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   email: '332715766@qq.com'
-  weibo: '//weibo.com/'
-  juejin: '//'
-  instagram: '//'
   github: '//github.com/hao619'
 
 # Tags 设置标签
