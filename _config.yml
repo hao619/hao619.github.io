@@ -1,7 +1,7 @@
 # Site settings 配置站点
-title: '国浩的独立博客'
-description: '运维攻城狮，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: '我是运维'
+title: '周国浩的独立博客'
+description: '我是一名运维攻城狮，热爱技术&生命。很高兴能在这里与你分享我对技术和生命的思考。'
+keyword: '国浩是一名Linux运维工程师，热爱的技术方向不仅限于Python、Shell、Linux、Devop、SRE、Docker、网络安全、大数据、人工智能、思考人为什么而活着；我也喜欢乒乓球、旅行、了解和热爱自己的生活。'
 url: 'https://blog.s100.pw' # your host
 
 # if you don't need baseurl, you should leave this value blank.
@@ -74,7 +74,7 @@ recommend-tags: true # whether or not display recommend-tags on the sidebar
 recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
 # Build settings
-paginate: 6
+paginate: 12
 paginate_path: 'page:num'
 exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
 
