@@ -11,7 +11,7 @@ baseurl: ''
 nav:
   home: '/'
   tags: '/tags.html'
-
+  简历: 'my-resume.html'
 # Footer
 footer:
   since: 2017
