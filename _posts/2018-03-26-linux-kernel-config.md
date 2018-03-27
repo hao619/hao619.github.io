@@ -2,7 +2,7 @@
 layout: post
 title: 'Linux 系统内核参数详解'
 subtitle: 'Linux'
-date: 2018-03-25
+date: 2018-03-26
 categories: Linux
 cover: 'http://itfish.net/Home/Modules/Images/itfish_46649_0.jpg'
 tags: Linux基础 linux系统内核参数
